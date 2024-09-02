@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wambani Ahmed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="heading">
+        <div class="logo"><img src="images/Ahmed1.PNG" alt="">
+            <span class="user-name">Ahmed.</span></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#latest-project">Portfolio</a></li>
+                <li><a href="#review">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+       
+    </header>
+    <div>
+        <nav class="mobile-menu" id="mobile-menu">
+            <div class="mobile-menu-header">
+                <h3>My<span>Portfolio</span>  </h3>
+                <div class="close-icon" id="close-icon">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#latest-project">Projects</a></li>
+                <li><a href="#review">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+
+    <section class="home" id="home">
+        <section class="home">
+            <div class="text-container">
+                <h1 class="greeting" id="greeting" ></h1>
+                <h2>Its Wambani Ahmed</h2>
+                <h3 class="typing-subtitle">
+                    <span class="typed-text"></span>
+                    <span class="cursor">&nbsp;</span>
+                </h3>
+                <p>Passionate developer with experience in web and mobile app development, bringing a unique perspective to every project.</p>
+                <div class="buttons">
+                    <p class="btn-hire-me"><a  href="tel:+254102271948"></a>Call</p>
+                    <p href="#" class="btn-view-project">Gallery</p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="images/coder1.jpeg" alt="Profile Picture">
+            </div>
+        </section>
+        <div class="social-media-icons">
+            <a href="https://www.tiktok.com/@athlic.all.1" target="_blank" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+    <!--About Me-->
+    <section class="about-me" id="about" >
+    <div class="container" >
+        <div class="left-column">
+            <h2 class="centered" >About Me</h2>
+            <p>
+                I'm a passionate developer with over 5 years of experience in various technologies. 
+                My expertise spans across web development, graphic design, and AI robotics. 
+                I'm committed to delivering high-quality solutions and continuously improving my skills.
+            </p>
+            <div class="tabs">
+                <h4 class="tab active" data-tab="technical">Technical</h4>
+                <h4 class="tab" data-tab="soft">Soft</h4>
+                <h4 class="tab" data-tab="experience">Experience</h4>
+            </div>
+            <div class="content">
+                <div id="technical" class="tab-content active">
+                    <div class="skill-bar">
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="90"></div>
+                            </div>
+                            <span class="percentage">90%</span>
+                            <span class="skill-name">HTML</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="85"></div>
+                            </div>
+                            <span class="percentage">85%</span>
+                            <span class="skill-name">CSS</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="90"></div>
+                            </div>
+                            <span class="percentage">90%</span>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="80"></div>
+                            </div>
+                            <span class="percentage">80%</span>
+                            <span class="skill-name">C++</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="85"></div>
+                            </div>
+                            <span class="percentage">85%</span>
+                            <span class="skill-name">C</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="65"></div>
+                            </div>
+                            <span class="percentage">65%</span>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="65"></div>
+                            </div>
+                            <span class="percentage">65%</span>
+                            <span class="skill-name">Adobe Photoshop</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="70"></div>
+                            </div>
+                            <span class="percentage">70%</span>
+                            <span class="skill-name">Figma</span>
+                        </div>
+                        <div class="skill">
+                            <div class="bar-background">
+                                <div class="bar" data-percentage="70"></div>
+                            </div>
+                            <span class="percentage">70%</span>
+                            <span class="skill-name">CorelDraw</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="soft" class="tab-content">
+                    <div class="skills-grid">
+                        <div class="soft-skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div class="number">90<span>%</span></div>
+                                </div>
+                            </div>
+                            <p>Creativity</p>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div class="number">80<span>%</span></div>
+                                </div>
+                            </div>
+                            <p>Communication</p>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div class="number">75<span>%</span></div>
+                                </div>
+                            </div>
+                            <p>Problem Solving</p>
+                        </div>
+                        <div class="soft-skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <div class="number">90<span>%</span></div>
+                                </div>
+                            </div>
+                            <p>Teamwork</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="experience" class="tab-content">
+                    <div class="experience">
+                        <div class="experience-item">
+                            <img src="images/cag.jpg" alt="Company 1" class="profile-img">
+                            <div class="experience-details">
+                                <h4>CAG Traders</h4>
+                                <span class="period">2024 - current</span>
+                                <p>At CAG Traders, I collaborate with cross-functional teams to design and implement innovative trading solutions, enhancing operational efficiency and driving client success.</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <img src="images/buildup1.PNG" alt="Company 2" class="profile-img">
+                            <div class="experience-details">
+                                <h4>BuildUp Tech Ltd</h4>
+                                <span class="period">2023 - 2024</span>
+                                <p>During my time at BuildUp Tech Ltd, I managed numerous web and app development projects, focusing on AI integration to enhance service delivery</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <img src="images/athlic.jpg" alt="Company 3" class="profile-img">
+                            <div class="experience-details">
+                                <h4>Athlic Ltd</h4>
+                                <span class="period">2022 - 2023</span>
+                                <p>At Athlic Ltd, I contributed to the development of scalable systems that supported rapid business growth and improved digital engagement</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="achievements">
+                <h3>Achievements</h3>
+                <ul>
+                    <li>Successfully Launched 50+ Responsive Websites</li>
+                    <li>Designed Intuitive UI/UX for Award-Winning Apps</li>
+                    <li>Led a Team to Develop a High-Traffic E-commerce Platform</li>
+                    <li>Completed 100+ Graphic Design Projects with a 98% Client Satisfaction Rate</li>
+                    <li>Developed a Cross-Platform App with 10,000+ Downloads</li>
+                </ul>
+            </div>
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Creative Coding</li>
+                    <li>Digital Illustration</li>
+                    <li>Graphic Design Challenges</li>
+                    <li>Open Source Contributions</li>
+                    <li>Front-End Experimentation</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!--Services-->
+ <section class="services" id="services">
+    <h2>My Services</h2>
+    <div class="service-container">
+        <div class="service-box">
+            <div class="icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            <h3>Web Development</h3>
+            <p>Building dynamic, SEO-friendly websites with a focus on performance, security, and user experience.</p>
+            <div class="details">
+                <p>Developing websites that load quickly, rank well on search engines, and offer an exceptional user experience..</p>
+            </div>
+            <p class="learn-more">Show more</p>
+        </div>
+        <div class="service-box">
+            <div class="icon"><i class="fa-regular fa-pen-to-square"></i></div>
+            <h3>Web Design</h3>
+            <p>Providing modern, responsive web designs that align with your brand's identity and engage users effectively.</p>
+            <div class="details">
+                <p>Delivering innovative designs focused on usability, ensuring a visually appealing and seamless browsing experience.</p>
+            </div>
+            <p class="learn-more">Show more</p>
+        </div>
+        <div class="service-box">
+            <div class="icon"><i class="fa-solid fa-robot"></i></div>
+            <h3>App Development</h3>
+            <p>Developing custom mobile apps that enhance business efficiency and improve customer engagement with intuitive features.</p>
+            <div class="details">
+                <p>Creating robust, scalable apps tailored to meet your business needs, ensuring high performance across all devices.</p>
+            </div>
+            <p class="learn-more">Show more</p>
+        </div>
+    </div>
+    <div class="service-container">
+        <div class="service-box">
+            <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+            <h3>App Design</h3>
+            <p>Creating visually stunning and easy-to-navigate app designs that prioritize user experience and functionality</p>
+            <div class="details">
+                <p>Designing apps with a perfect balance of aesthetics and usability, ensuring users have a great experience.</p>
+            </div>
+            <p class="learn-more">Show more</p>
+        </div>
+        <div class="service-box">
+            <div class="icon"><i class="fa-regular fa-square-check"></i></div>
+            <h3>UI/UX Design</h3>
+            <p>Designing user-centric interfaces that enhance usability and create a satisfying user experience.</p>
+            <div class="details">
+                <p>Crafting intuitive UI/UX designs that improve user interaction and engagement, ensuring a seamless journey.</p>
+            </div>
+            <p class="learn-more">Show more</p>
+        </div>
+        <div class="service-box">
+            <div class="icon"><i class="fa-regular fa-clone"></i></div>
+            <h3>Graphic Design</h3>
+            <p>Producing eye-catching graphics that effectively communicate your brand's message across all platforms.</p>
+            <div class="details">
+                <p>Creating visually compelling designs that resonate with your audience and enhance your brand’s visibility</p>
+            </div>
+            <p class="learn-more">Show more</p>
+        </div>
+    </div>
+</section>
+
+ <!--Projects-->
+ <section id="latest-project" class="project">
+    <h2>Latest Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <div class="project-content">
+                <h3>Web Design</h3>
+                <p>Crafted a modern, responsive website design that elevates user experience and effectively showcases the brand's core message</p>
+                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <img src="images/webdark2.jpeg" alt="Project 1">
+        </div>
+        <div class="project-card">
+            <div class="project-content">
+                <h3>Web Dev</h3>
+                <p>Built a dynamic, SEO-optimized website with seamless navigation, improving site performance and boosting overall user engagement.</p>
+                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <img src="images/webdev3.jpeg" alt="Project 2">
+        </div>
+        <div class="project-card">
+            <div class="project-content">
+                <h3>App Design</h3>
+                <p>Created a visually appealing and functional app design, balancing aesthetics with user-friendly navigation for optimal usability.</p>
+                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <img src="images/appdesign.jpeg" alt="Project 3">
+        </div>
+
+        <div class="project-grid">
+        <div class="project-card">
+            <div class="project-content">
+                <h3>App Development</h3>
+                <p>Developed a robust, user-friendly mobile application that streamlines business operations and enhances customer interaction efficiently.</p>
+                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <img src="images/app2.jpeg" alt="Project 4">
+        </div>
+        <div class="project-card">
+            <div class="project-content">
+                <h3>UI/UX Design</h3>
+                <p>Designed intuitive UI/UX interfaces focusing on user-centered design principles, ensuring an engaging and seamless user experience.</p>
+                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <img src="images/webdark2.jpeg" alt="Project 5">
+        </div>
+        <div class="project-card">
+            <div class="project-content">
+                <h3>GraphicDesign </h3>
+                <p>Produced eye-catching graphic designs that effectively communicate the brand's identity across various digital and print platforms.</p>
+                <a href="#" class="project-link"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <img src="images/graphic.jpeg" alt="Project 6">
+        </div>
+    </div>
+    </div>
+</section>
+<!--TESTIMONIALS-->
+<section class="review" id="review">
+    <h2 >Testimonials</h2>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/Mubaraki.jpeg" alt="">
+                <p>Ahmed’s expertise in web development transformed our online presence. The new site stands out, delivering a superior experience for our users</p>
+                <h3>Alxender Joe</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/mark1.jpeg" alt="">
+                <p>Wambani Ahmed’s design for our app exceeded our expectations. The interface is sleek and intuitive, greatly enhancing our users’ experience.</p>
+                <h3>Mike Edward</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/churchil.jpg" alt="">
+                <p>The app Wambani developed for us is intuitive and fast. It has dramatically improved our customer experience and streamlined our business processes.</p>
+                <h3>Odhiambo Churchil</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/anna.jpg" alt="">
+                <p>The app Wambani developed for us is intuitive and fast. It has dramatically improved our customer experience and streamlined our business processes.</p>
+                <h3>Wangi Li Ann</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Seth.jpg" alt="">
+                <p>Wambani’s graphic design work for our branding is exceptional. The materials are visually striking and perfectly capture our brand’s identity.</p>
+                <h3>Seth Edwin</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+<!--Contact-->
+<section class="contact" id="contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-form">
+                <div id="error-message" class="error-message"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="FullName" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="tel" name="PhoneNo" placeholder="Phone Number" required>
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <textarea name="Message" placeholder="Your Message" required></textarea>
+                    <button type="Submit">Send Message</button>
+                </form>
+                
+                <div id="msgModal" class="popup-modal">
+                    <div class="modal-content">
+                        <div class="checkmark-circle">
+                            <div class="checkmark draw"></div>
+                        </div>
+                        <div id="msg" class="modal-body"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.6867415641545!2d36.8336565887492!3d-1.2666627186291852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f16c39c0f766b%3A0xc78c8da617084376!2sPangani%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1723023421103!5m2!1sen!2ske" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-details">
+                    <p> <a href="mailto:ahmedmutsoli@gmail.com"><i class="fas fa-envelope"></i> </a>ahmedmutsoli@gmail.com</p>
+                    <p> <a href="tel:+254102271948"><i class="fas fa-phone"></i> </a>+254102271948</p>
+                    <p>
+                        <a href="https://wa.me/254102271948" target="_blank"><i class="fab fa-whatsapp"></i></a>Chat on WhatsApp</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<footer class="footer">
+    <div class="footer-top">
+       
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#latest-project">Portfolio</a></li>
+                <li><a href="#review">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-brand">
+           
+            <h4 class="footer-description">SOCIAL LINKS</h4>
+            <div class="footer-social-icons">
+                <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+        <div class="footer-newsletter">
+            <h4>Subscribe to my Newsletter</h4>
+            <form>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Wambani Ahmed. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
